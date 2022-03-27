@@ -9,7 +9,7 @@
               <img src="@/assets/img/trading-desk-icon.png" alt="">
             </div>
             <div>
-              <h3>Trading Desk</h3>
+              <h4>Trading Desk</h4>
               <p>Nauczymy Cię jak samodzielnie rozpocząć przygodę z programmatic.</p>
               <a href="#">Więcej</a>
             </div>
@@ -21,7 +21,7 @@
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
           <div>
-            <h3>Dane oraz technologia DMP</h3>
+            <h4>Dane oraz technologia DMP</h4>
             <p>Segmenty wysokiej jakości danych stworzone specjalnie na potrzeby Twojej kampanii, np. rowerzyści w Twoim mieście.
             </p>
             <a href="#">Więcej</a>
@@ -34,8 +34,8 @@
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
           <div>
-            <h3>Dedykowane modele zwiększające konwersje
-            </h3>
+            <h4>Dedykowane modele zwiększające konwersje
+            </h4>
             <p>Przeprowadzimy analizę użytkowników Twojego serwisu oraz powiemy czym kierują się wybierając Twój produkt.
             </p>
             <a href="#">Więcej</a>
@@ -49,8 +49,8 @@
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
           <div>
-            <h3>Kampanie programmatic
-            </h3>
+            <h4>Kampanie programmatic
+            </h4>
             <p>Prowadzimy skuteczne kampanie programmatic maksymalizujące sprzedaż.</p>
             <a href="#">Więcej</a>
           </div>
@@ -62,8 +62,8 @@
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
           <div>
-            <h3>Optymalizacja kampanii reklamowych
-            </h3>
+            <h4>Optymalizacja kampanii reklamowych
+            </h4>
             <p>Wykorzystujemy technologię do zwiększania skuteczności Twoich kampanii.</p>
             <a href="#">Więcej</a>
           </div>
@@ -75,7 +75,7 @@
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
           <div>
-            <h3>Szkolenia programmatic & data</h3>
+            <h4>Szkolenia programmatic & data</h4>
             <p>Prowadzimy szkolenia dla marketerów z zakresu wykorzystania danych i technologii w kampaniach programmatic.</p>
             <a href="#">Więcej</a>
           </div>

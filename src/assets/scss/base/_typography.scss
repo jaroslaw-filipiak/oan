@@ -1,0 +1,31 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: $txt-color;
+}
+
+.h1 , h1 {
+  font-size: 3.75rem;
+}
+
+.h2 , h2 {
+  font-size: 1.75rem;
+}
+
+.h3, h3 {
+   font-size: 1.875rem;
+ }
+
+.h4, h4 {
+  font-size: 1.563rem;
+}
+
+.h1, h1 ,
+.h2, h2 ,
+.h3, h3 ,
+.h4, h4 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.938rem;
+}

@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  name: 'CompanyInfo'
+  name: 'CompanyInfo',
 };
 </script>
 

@@ -31,6 +31,11 @@ const routes = [
     name: 'gdpr',
     component: () => import(/* webpackChunkName: "about" */ '../views/GDPRView.vue'),
   },
+  {
+    path: '/sample',
+    name: 'sample',
+    component: () => import(/* webpackChunkName: "about" */ '../views/SampleView.vue'),
+  },
 ];
 
 const router = createRouter({
