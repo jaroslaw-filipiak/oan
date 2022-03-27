@@ -17,4 +17,7 @@ module.exports = {
     'vue/multi-word-component-names': 'off',
     'no-multiple-empty-lines': [0, { max: 30, maxEOF: 10 }],
   },
+  env: {
+    'vue/setup-compiler-macros': true,
+  },
 };
