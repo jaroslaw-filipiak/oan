@@ -10,7 +10,7 @@
 
 import Footer from '@/components/Footer.vue';
 import ContactForm from '@/components/ContactForm.vue';
-import Map from '@/components/map.vue';
+import Map from '@/components/Map.vue';
 
 export default {
   components: {
