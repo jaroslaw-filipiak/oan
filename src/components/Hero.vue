@@ -52,7 +52,10 @@ export default {
 @import "@/assets/scss/utils/_rwd";
 
 .home-hero {
-  padding-top: 100px;
+
+  h1 {
+    @include max-lg {font-size: 39px;}
+  }
 
   &--icon {
     position: relative;

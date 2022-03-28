@@ -39,7 +39,11 @@ export default {
 
 .footer {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+
+  @include lg {
+    padding-bottom: 20px;
+  }
   a {
     text-decoration: none !important;
     color: #354185;

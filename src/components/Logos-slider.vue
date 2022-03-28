@@ -4,22 +4,22 @@
     <div class="container">
       <div class="row d-flex flex-xl-nowrap align-items-center justify-content-center">
         <div class="logos-slider--logo col col-sm-6 col-xl-2">
-          <img src="@/assets/img/logos/jw-logo.png" alt="">
+          <img src="@/assets/img/logos/jw-logo.png" alt="" data-aos="fade-up">
         </div>
         <div class="logos-slider--logo col col-sm-6 col-xl-2">
-          <img src="@/assets/img/logos/sn-logo.png" alt="">
+          <img src="@/assets/img/logos/sn-logo.png" alt="" data-aos="fade-up">
         </div>
         <div class="logos-slider--logo col col-sm-6 col-xl-2">
-          <img src="@/assets/img/logos/get-response-logo.png" alt="">
+          <img src="@/assets/img/logos/get-response-logo.png" alt="" data-aos="fade-up">
         </div>
         <div class="logos-slider--logo col col-sm-6 col-xl-2">
-          <img src="@/assets/img/logos/ecocar-logo.png" alt="">
+          <img src="@/assets/img/logos/ecocar-logo.png" alt="" data-aos="fade-up">
         </div>
         <div class="logos-slider--logo col col-sm-6 col-xl-2">
-          <img src="@/assets/img/logos/pg-logo.png" alt="">
+          <img src="@/assets/img/logos/pg-logo.png" alt="" data-aos="fade-up">
         </div>
         <div class="logos-slider--logo col col-sm-6 col-xl-2">
-          <img src="@/assets/img/logos/ipg-logo.png" alt="">
+          <img src="@/assets/img/logos/ipg-logo.png" alt="" data-aos="fade-up">
         </div>
       </div>
     </div>

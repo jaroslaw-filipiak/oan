@@ -1,27 +1,27 @@
 <template>
-<section class="steps">
+<section class="steps" >
   <div class="container-fluid">
     <div class="container">
 
       <div class="row">
-        <div class="col text-center">
+        <div class="col text-center" data-aos="fade-up">
           <h3>Skuteczność Twoich kampanii to nasz priorytet:</h3>
         </div>
       </div>
 
       <div class="row steps--wrapper">
 
-        <div class="col step step-1">
+        <div class="col step step-1" data-aos="fade-up">
           <img src="@/assets/img/step-1-icon.png" alt="">
           <p>Zwiększamy konwersję dzięki precyzyjnemu planowaniu kampanii</p>
         </div>
 
-        <div class="col step step-2">
+        <div class="col step step-2" data-aos="fade-up">
           <img src="@/assets/img/step-2-icon.png" alt="">
           <p>Zmniejszamy koszty dotarcia wykorzystując profilowanie użytkowników</p>
         </div>
 
-        <div class="col step step-3">
+        <div class="col step step-3" data-aos="fade-up">
           <img src="@/assets/img/step-3-icon.png" alt="">
           <p>Generujemy więcej leadów dzięki dotarciu przez właściwe kanały reklamowe</p>
         </div>

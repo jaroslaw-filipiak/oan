@@ -1,11 +1,8 @@
 <template>
-  <Header/>
-  <router-view/>
+    <Header/>
+     <div class="empty-space"></div>
+    <router-view/>
 </template>
-
-<style lang="scss">
-@import "./assets/scss/oan.scss";
-</style>
 
 <script setup >
 import { onMounted } from 'vue';
@@ -17,3 +14,23 @@ onMounted(() => {
 });
 
 </script>
+
+
+<style lang="scss">
+@import "./assets/scss/oan.scss";
+
+.empty-space {
+
+  margin-top: 30px;
+  height: 1px;
+  padding-bottom: 30px;
+
+  @include lg {
+    margin-top: 65px;
+    height: 1px;
+    padding-bottom: 40px;
+  }
+
+}
+
+</style>

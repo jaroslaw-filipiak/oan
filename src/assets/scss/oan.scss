@@ -6,8 +6,18 @@
 @import "base/_typography";
 
 @import "utils/_rwd";
-//@import "utils/_debug";
+@import "utils/_debug";
 @import "utils/_mixins";
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+html , body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 
 .oan-btn {

@@ -4,7 +4,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col text-center">
+        <div class="col text-center" data-aos="fade-up">
           <h3>Zmieniamy potrzeby w efekty</h3>
         </div>
       </div>
@@ -12,7 +12,7 @@
         <carousel  :wrap-around="true" :items-to-show="1.0">
 
           <slide v-for="slide in 10" :key="slide">
-            <div class="testimonial" >
+            <div class="testimonial" data-aos="fade-up">
               <div class="testimonial--quote-1 d-none d-xl-block">
                 <img src="@/assets/img/quote-1.png" alt="">
               </div>

@@ -11,10 +11,10 @@
         <div class="container">
           <div class="row d-flex flex-column flex-lg-row align-items-center">
             <div class="col-12 col-lg-4 d-flex justify-content-center justify-content-lg-start">
-              <router-link class="logo d-none d-lg-block" to="/">  <img src="@/assets/img/logo.png" alt=""></router-link>
+              <router-link class="logo d-none d-lg-block" to="/">  <img src="@/assets/img/logo.png" alt="" data-aos="fade-up"></router-link>
             </div>
             <div class="col-12 col-lg-8 nav--wrapper">
-              <nav class="d-flex flex-column flex-lg-row align-items-center ">
+              <nav class="d-flex flex-column flex-lg-row align-items-center" data-aos="fade-up">
                 <router-link to="/">Oferta</router-link>
                 <router-link to="/about">O nas</router-link>
                 <router-link to="/contact">Kontakt</router-link>
