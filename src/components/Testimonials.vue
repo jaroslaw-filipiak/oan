@@ -90,7 +90,7 @@ export default {
 }
 
 :global(.carousel__viewport) {
-  padding: 50px 0px !important;
+  padding: 0px !important;
 }
 
 
