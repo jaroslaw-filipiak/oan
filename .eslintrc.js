@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-plusplus': 0,
     'max-len': 'off',
     'vue/multi-word-component-names': 'off',
     'no-multiple-empty-lines': [0, { max: 30, maxEOF: 10 }],
