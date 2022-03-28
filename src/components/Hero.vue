@@ -1,5 +1,5 @@
 <template>
-  <section class="home-hero">
+  <section class="home-hero" data-aos="fade-up">
     <div class="container-fluid">
       <div class="container">
 

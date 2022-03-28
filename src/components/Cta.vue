@@ -2,7 +2,7 @@
 <section class="cta">
   <div class="container-fluid">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <slot name="col1"></slot>
         <slot name="col2"></slot>
       </div>

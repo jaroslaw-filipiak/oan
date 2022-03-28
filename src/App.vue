@@ -13,3 +13,13 @@
 <style lang="scss">
 @import "./assets/scss/oan.scss";
 </style>
+
+<script setup >
+import { onMounted } from 'vue';
+import AOS from 'aos';
+
+onMounted(() => {
+  AOS.init();
+});
+
+</script>

@@ -1,15 +1,15 @@
 <template>
-<section class="home-features">
+<section class="home-features" >
   <div class="container-fluid">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col text-center">
           <h3>W zakresie usług data & programmatic oferujemy</h3>
         </div>
       </div>
       <div class="row">
         <!-- trading desk-->
-        <div class="col-6 home-feauters--item">
+        <div class="col-6 home-feauters--item" data-aos="fade-up">
             <div>
               <img src="@/assets/img/trading-desk-icon.png" alt="">
             </div>
@@ -21,7 +21,7 @@
         </div>
 
         <!-- Dane oraz technologia DMP-->
-        <div class="col-6 home-feauters--item">
+        <div class="col-6 home-feauters--item" data-aos="fade-up">
           <div>
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
@@ -34,7 +34,7 @@
         </div>
 
         <!-- Dedykowane modele zwiększające konwersje-->
-        <div class="col-6 home-feauters--item">
+        <div class="col-6 home-feauters--item" data-aos="fade-up">
           <div>
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
@@ -48,7 +48,7 @@
         </div>
 
         <!-- Kampanie programmatic -->
-        <div class="col-6 home-feauters--item">
+        <div class="col-6 home-feauters--item" data-aos="fade-up">
           <div>
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
@@ -61,7 +61,7 @@
         </div>
 
         <!-- Optymalizacja kampanii reklamowych-->
-        <div class="col-6 home-feauters--item">
+        <div class="col-6 home-feauters--item" data-aos="fade-up">
           <div>
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
@@ -74,7 +74,7 @@
         </div>
 
         <!-- Szkolenia programmatic & data-->
-        <div class="col-6 home-feauters--item">
+        <div class="col-6 home-feauters--item" data-aos="fade-up">
           <div>
             <img src="@/assets/img/trading-desk-icon.png" alt="">
           </div>
