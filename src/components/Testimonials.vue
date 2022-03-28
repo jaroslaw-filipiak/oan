@@ -13,10 +13,10 @@
 
           <slide v-for="slide in 10" :key="slide">
             <div class="testimonial" >
-              <div class="testimonial--quote-1">
+              <div class="testimonial--quote-1 d-none d-xl-block">
                 <img src="@/assets/img/quote-1.png" alt="">
               </div>
-              <div class="testimonial--quote-2">
+              <div class="testimonial--quote-2 d-none d-xl-block">
                 <img src="@/assets/img/quote-2.png" alt="">
               </div>
               <div class="testimonial--content">
