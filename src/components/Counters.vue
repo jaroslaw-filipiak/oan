@@ -4,28 +4,34 @@
     <div class="container">
 
       <div class="row">
-        <div class="col">
+        <div class="col text-center">
           <h3>OAN w liczbach</h3>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row d-flex align-items-center justify-content-center counters--items-wrapper" >
 
-        <div class="col border counter-item">
-          <img src="@/assets/img/counter-1.png" alt="">
-          <div class="counter--value">80</div>
+        <div class="col counter-item">
+          <div class="d-flex align-items-center">
+            <img src="@/assets/img/counter-1.png" alt="">
+            <div class="counter--value">80</div>
+          </div>
           <p>Analizujemy 80 mln plików cookies polskich internautów</p>
         </div>
 
-        <div class="col border counter-item">
-          <img src="@/assets/img/counter-2.png" alt="">
-          <div class="counter--value">950</div>
+        <div class="col counter-item">
+          <div class="d-flex align-items-center">
+            <img src="@/assets/img/counter-2.png" alt="">
+            <div class="counter--value">950</div>
+          </div>
           <p>Ponad 950 zrealizowanych kampanii rocznie</p>
         </div>
 
-        <div class="col border counter-item">
-          <img src="@/assets/img/counter-3.png" alt="">
-          <div class="counter--value">70</div>
+        <div class="col counter-item">
+          <div class="d-flex align-items-center">
+            <img src="@/assets/img/counter-3.png" alt="">
+            <div class="counter--value">70</div>
+          </div>
           <p>Ponad 700 klientów rocznie</p>
         </div>
 
@@ -41,6 +47,65 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "@/assets/scss/utils/_variables";
+@import "@/assets/scss/utils/_rwd";
+@import "@/assets/scss/utils/_mixins";
+
+.counters {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  &--items-wrapper {
+    @include lg {
+      gap: 150px;
+    }
+  }
+
+  h3 {
+    margin-bottom: 70px;
+  }
+
+  .counter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    text-align: center;
+    border: 1px solid #fff;
+
+    @include max-lg {
+      min-width: 80%;
+      margin-bottom: 60px;
+    }
+
+    .counter--value {
+      font-weight: bold;
+      font-size: 60px;
+      color: #dddddd;
+    }
+
+    p {
+      margin-top: 20px;
+      position: relative;
+
+      &:after {
+        content: '';
+        width: 21px;
+        height: 6px;
+        background-color: $accent;
+        position: absolute;
+        left: 50%;
+        bottom: -30px;
+        transform: translate(-50% , 0%);
+      }
+
+    }
+
+
+  }
+
+}
 
 </style>

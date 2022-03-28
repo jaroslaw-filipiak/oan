@@ -3,7 +3,17 @@
   <AboutUsHero/>
   <CompanyTimeline/>
   <Counters/>
-  <Cta/>
+
+  <Cta>
+    <template v-slot:col1>
+      <div class="col cta-col cta-col-1 text-center">
+        <h3>Czekamy na Ciebie:</h3>
+        <p>Porozmawiajmy o precyzyjnym dotarciu do Twoich klientów:</p>
+        <a class="oan-btn" href="#">Kontakt</a>
+      </div>
+    </template>
+  </Cta>
+
   <Footer/>
 
 </template>
