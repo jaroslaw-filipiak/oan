@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import "vendors/hamburgers/hamburgers";
 
+@import "utils/_mixins";
+@import "utils/_rwd";
+
 @import "utils/_variables";
 @import "base/_typography";
 
-@import "utils/_rwd";
 @import "utils/_debug";
-@import "utils/_mixins";
+
 
 html {
   scroll-behavior: smooth;
@@ -39,5 +41,10 @@ html , body {
     opacity: .9;
   }
 }
+
+.content-page {
+  padding: 60px 55px;
+}
+
 
 

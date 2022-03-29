@@ -4,14 +4,14 @@
     <div class="container">
 
       <div class="row">
-        <div class="col text-center">
-          <h3>OAN w liczbach</h3>
+        <div class="col text-center" data-aos="fade-up">
+          <h3>OAN w <span class="underline">liczbach</span> </h3>
         </div>
       </div>
 
       <div class="row d-flex align-items-center justify-content-center counters--items-wrapper" >
 
-        <div class="col counter-item">
+        <div class="col counter-item" data-aos="fade-up">
           <div class="d-flex align-items-center">
             <img src="@/assets/img/counter-1.png" alt="">
             <div class="counter--value">80</div>
@@ -19,7 +19,7 @@
           <p>Analizujemy 80 mln plików cookies polskich internautów</p>
         </div>
 
-        <div class="col counter-item">
+        <div class="col counter-item" data-aos="fade-up">
           <div class="d-flex align-items-center">
             <img src="@/assets/img/counter-2.png" alt="">
             <div class="counter--value">950</div>
@@ -27,7 +27,7 @@
           <p>Ponad 950 zrealizowanych kampanii rocznie</p>
         </div>
 
-        <div class="col counter-item">
+        <div class="col counter-item" data-aos="fade-up">
           <div class="d-flex align-items-center">
             <img src="@/assets/img/counter-3.png" alt="">
             <div class="counter--value">70</div>

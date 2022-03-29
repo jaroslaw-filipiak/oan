@@ -2,13 +2,13 @@
 <section class="gdpr-hero">
   <div class="container-fluid">
     <div class="container">
-      <div class="row">
-        <div class="col border">
+      <div class="row d-flex flex-column flex-lg-row align-items-center ">
+        <div class="col-12 col-lg-4 d-flex justify-content-center pb-5 pb-lg-0 " data-aos="fade-up">
           <img src="@/assets/img/gdpr-hero-icon.png" alt="">
         </div>
-        <div class="col border">
+        <div class="col-12 col-lg-8 pl-5 pr-5" data-aos="fade-up">
 
-          <h1>Zgodność z RODO</h1>
+          <h1 data-aos="fade-up" class="pb-3">Zgodność z <span class="underline">RODO</span></h1>
 
           <p>Będąc częścią grupy Cloud Technologies, która posiada jedną z największych na świecie hurtowni danych, przetwarzającą miliardy profili internautów z 200 rynków świata, przykładamy szczególną uwagę do kwestii ochrony danych osobowych.
           </p>
@@ -32,6 +32,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+
+.gdpr-hero {
+  padding-bottom: 65px;
+  padding-top: 30px;
+
+}
 
 </style>

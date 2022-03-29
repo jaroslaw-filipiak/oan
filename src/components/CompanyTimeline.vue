@@ -5,12 +5,12 @@
     <div class="container">
 
       <div class="row">
-        <div class="col text-center">
-          <h3>Jak się rozwijaliśmy</h3>
+        <div class="col text-center" data-aos="fade-up">
+          <h3><span class="underline">Jak się rozwijaliśmy</span></h3>
         </div>
       </div>
 
-      <div class="flex-column align-items-center d-none d-lg-flex overflow-hidden mb-4 position-relative">
+      <div class="flex-column align-items-center d-none d-lg-flex overflow-hidden mb-4 position-relative" data-aos="fade-up">
         <img class="indicator" src="@/assets/img/section-indicator.png" alt="">
         <img class="indicator-icon" src="@/assets/img/icons/arrow-down.svg" alt="">
       </div>
@@ -21,7 +21,7 @@
   <div class="container-fluid bg-gray">
     <div class="container">
       <div class="row">
-        <div class="col d-flex justify-content-center" style="position:relative;">
+        <div class="col d-flex justify-content-center" style="position:relative;" data-aos="fade-up">
 
           <carousel  :wrap-around="true" :items-to-show="1.0">
 

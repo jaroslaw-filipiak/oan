@@ -6,11 +6,12 @@
         <div class="row d-flex flex-column flex-lg-row align-items-center justify-content-between">
 
           <div class="col text-center text-lg-start">
-            <h1>Programmatic & Data solutions</h1>
+
+            <h1>Programmatic & <span class="underline">Data solutions</span></h1>
             <h2>Sprawdź jak wdrożyć działania programmatic wspierane analizą Big Data</h2>
             <div class="d-flex flex-column flex-lg-row">
               <label for="email">
-                <input class="home-hero--input" type="email" name="email" id="email" placeholder="Twój email">
+                <input class="home-hero--input" type="text" name="email" id="email" placeholder="Twój email">
               </label>
               <label for="submit-btn">
                 <input class="oan-btn" name="submit-btn" id="submit-btn" type="submit" value="Wyślij">
@@ -55,6 +56,7 @@ export default {
 
   h1 {
     @include max-lg {font-size: 39px;}
+    max-width: 473px;
   }
 
   &--icon {
@@ -71,6 +73,7 @@ export default {
 h2 {
   font-weight: 400;
   margin-bottom: 45px;
+  max-width: 550px;
 }
 
 h3 {
@@ -93,8 +96,19 @@ h3 {
 
 .oan-btn , .home-hero--input {
   @include max-lg {
-    width: 100%;
+    //width: 100%;
     text-align: center;
+  }
+
+}
+
+input[type="text"] {
+  @include lg { min-width: 380px !important;}
+  text-align: center;
+
+  &:focus {
+    background-color: $yellow;
+    border-color: $yellow;
   }
 
 }

@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row" data-aos="fade-up">
         <div class="col text-center">
-          <h3>W zakresie usług data & programmatic oferujemy</h3>
+          <h3>W zakresie usług <span class="underline"> data & programmatic</span>  oferujemy</h3>
         </div>
       </div>
       <div class="row">
@@ -125,6 +125,12 @@ export default {
       margin-top: 25px !important;
       @include lg {
         margin-bottom: 50px !important;
+      }
+    }
+
+    p {
+      @include lg {
+        max-width: 75%;
       }
     }
 

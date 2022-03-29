@@ -5,7 +5,7 @@
 
       <div class="row">
         <div class="col text-center" data-aos="fade-up">
-          <h3>Skuteczność Twoich kampanii to nasz priorytet:</h3>
+          <h3>Skuteczność Twoich kampanii to <span class="underline">nasz priorytet:</span> </h3>
         </div>
       </div>
 

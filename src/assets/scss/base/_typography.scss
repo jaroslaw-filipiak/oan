@@ -5,6 +5,11 @@ body {
 
 .h1 , h1 {
   font-size: 3.75rem;
+
+  @include max-lg {
+    margin-bottom: 30px;
+    font-size: 39px;
+  }
 }
 
 .h2 , h2 {
@@ -33,3 +38,52 @@ p {
 .text-justify {
   text-align: justify;
 }
+
+
+span.underline {
+  position: relative;
+  z-index: 4;
+  &:after {
+    content: '';
+    width: 100%;
+    background-color: $yellow;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+
+}
+
+h1 {
+  span.underline {
+    &:after {
+      content: '';
+      height: 12px;
+      bottom: 5px;
+      @include lg {
+        bottom: 8px;
+        height: 22px;
+      }
+
+    }
+
+  }
+}
+
+h3 {
+  span.underline {
+    &:after {
+      content: '';
+      height: 7px;
+      bottom: 5px;
+      @include lg {
+        bottom: 3px;
+        height: 12px;
+      }
+
+
+    }
+
+  }
+}
+

@@ -3,14 +3,14 @@
     <div class="container-fluid">
       <div class="container">
 
-        <div class="row">
-          <div class="col"><h1>Polityka Prywatności</h1></div>
+        <div class="row pb-3">
+          <div class="col"><h3>Polityka Prywatności</h3></div>
         </div>
 
         <div class="row">
           <div class="col">
 
-            <h3> 1. Informacje ogólne</h3>
+            <h4> 1. Informacje ogólne</h4>
 
             <ul>
               <li>W niniejszej Polityce prywatności określenia “my”, “nasza” odnosi się do spółki pod firmą Online Advertising Network Sp. z o.o. z siedzibą w Warszawie (05-075), przy ul. Żeromskiego 7, wpisaną do rejestru przedsiębiorców prowadzonego przez Sąd Rejonowy dla m.st. w Warszawy w Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem 0000524099, NIP: 9512384089, REGON: 147425174.
@@ -34,4 +34,26 @@
       </div>
     </div>
   </section>
+  <Cta>
+    <template v-slot:col1>
+      <div class="col cta-col cta-col-1 text-center">
+        <h3>Porozmawiajmy o zwiększeniu konwersji</h3>
+        <a class="oan-btn" href="#">Napisz do nas</a>
+      </div>
+    </template>
+  </Cta>
+  <Footer/>
 </template>
+
+
+<script>
+import Cta from '@/components/Cta.vue';
+import Footer from '@/components/Footer.vue';
+
+export default {
+  components: {
+    Cta,
+    Footer,
+  },
+};
+</script>

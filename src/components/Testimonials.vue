@@ -5,7 +5,7 @@
 
       <div class="row">
         <div class="col text-center" data-aos="fade-up">
-          <h3>Zmieniamy potrzeby w efekty</h3>
+          <h3>Zmieniamy  <span class="underline">potrzeby w efekty</span></h3>
         </div>
       </div>
 

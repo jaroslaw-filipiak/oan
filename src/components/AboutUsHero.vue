@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row d-flex flex-column flex-lg-row flex-lg-nowrap align-items-lg-start justify-content-center">
         <div class="col text-center text-lg-start" data-aos="fade-up">
-          <h1>Online Advertising Network</h1>
+          <h1>Online Advertising <span class="underline">Network</span> </h1>
         </div>
         <div class="col">
           <div class="about-us-hero--slider-wrapper">

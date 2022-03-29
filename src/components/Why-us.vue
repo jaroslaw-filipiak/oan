@@ -5,7 +5,7 @@
 
       <div class="row">
         <div class="col text-center" data-aos="fade-up">
-          <h3>Dlaczego programmatic?
+          <h3>Dlaczego <span class="underline">programmatic?</span>
           </h3>
         </div>
       </div>

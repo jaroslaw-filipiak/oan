@@ -16,7 +16,7 @@
             <div class="col-12 col-lg-8 nav--wrapper">
               <nav class="d-flex flex-column flex-lg-row align-items-center" data-aos="fade-up">
                 <router-link to="/">Oferta</router-link>
-                <router-link to="/about">O nas</router-link>
+                <router-link to="/about" >O nas</router-link>
                 <router-link to="/contact">Kontakt</router-link>
                 <router-link to="switchlanguage">en | pl</router-link>
                 <a class="oan-btn" href="#">Napisz do nas</a>
@@ -35,7 +35,6 @@ const isMobileMenuVisible = ref(false);
 
 function toggleMobileMenu() {
   isMobileMenuVisible.value = !isMobileMenuVisible.value;
-  console.log(isMobileMenuVisible.value);
 }
 </script>
 

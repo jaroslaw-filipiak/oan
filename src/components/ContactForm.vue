@@ -7,7 +7,7 @@
       <div class="row d-flex flex-column flex-lg-row">
 
         <div  class="col col-lg-5 pb-5 pb-lg-0" data-aos="fade-up">
-          <h1>Cześć</h1>
+          <h1><span class="underline">Cześć</span></h1>
           <p>Napisz do nas i porozmawiajmy, jak dotrzeć do twoich nowych klientów.</p>
           <p>Online Advertising Network Sp. z o.o. <br>
             ul. Zajęcza 4<br>
@@ -30,7 +30,7 @@
             </label>
 
             <label for="message">
-              <textarea name="message" id="message" cols="30" rows="10"> </textarea>
+              <textarea placeholder="Tu napisz w czym możemy pomóc" name="message" id="message" cols="30" rows="10"></textarea>
             </label>
 
             <div class="d-flex justify-content-end">
@@ -100,7 +100,10 @@ export default {
       padding: 5px 15px;
     }
     input[type="submit"] {
-      display: inline-flex;
+      @include max-lg {
+        display: inline-flex;
+      }
+
       margin-top: 20px;
     }
   }
@@ -108,6 +111,18 @@ export default {
 
 .box-shadow {
   @include boxShadow;
+}
+
+input[type="text"] , textarea {
+  @include lg { min-width: 380px !important;}
+  outline: none;
+
+  &:focus {
+    background-color: $yellow;
+    border-color: $yellow;
+  }
+
+
 }
 
 

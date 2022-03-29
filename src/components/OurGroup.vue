@@ -4,7 +4,7 @@
       <div class="container">
 
         <div class="row">
-          <div class="col">
+          <div class="col" data-aos="fade-up">
             <h3 class="text-center">Grupa Cloud Technologies</h3>
           </div>
         </div>
@@ -15,7 +15,7 @@
           </div>
         </div>
 
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center" data-aos="fade-up">
           <div class="col-12 col-lg-9">
             <p class="text-justify">Cloud Technologies jest liderem rynku Big Data w Polsce. Zajmuje się Big Data marketingiem i monetyzacją danych. To największa hurtownia danych w Europie i najszybciej rozwijająca się spółka na giełdzie NewConnect. Firma opracowała innowacyjne narzędzia analityczne, w zasięgu których znajduje się praktycznie każdy polski internauta. Dane Cloud Technologies pozwalają marketerom na personalizację kampanii reklamowych w Sieci oraz rozbudowywanie rozwiązań klasy BI w firmach.
             </p>
@@ -25,7 +25,7 @@
         <div class="our-brands row d-flex justify-content-center pb-5">
 
           <!-- oan-->
-          <div class="our-brands--item col-12 col-lg-9 d-flex flex-column align-items-center flex-lg-row">
+          <div class="our-brands--item col-12 col-lg-9 d-flex flex-column align-items-center flex-lg-row" data-aos="fade-up">
             <div class="our-brands--logo"><img src="@/assets/img/our-group-oan-logo.png" alt=""></div>
             <div class="our-brands--excerpt">
               <p>OAN - jesteśmy firmą, która łączy tradycyjne kompetencje z nowoczesnym podejściem do planowania i prowadzenia kampanii online. Realizujemy je w modelu programmatic, korzystając z wysokiej jakości danych o klientach. Prowadzimy efektywne kampanie - od strategicznego planu przez stałą optymalizację po monitorowanie efektów. W działaniach wykorzystujemy dane o internautach, najważniejsze kanały i formaty reklamowe.
@@ -34,7 +34,7 @@
           </div>
 
           <!-- Audience Network-->
-          <div class="our-brands--item col-12 col-lg-9 d-flex flex-column align-items-center flex-lg-row">
+          <div class="our-brands--item col-12 col-lg-9 d-flex flex-column align-items-center flex-lg-row" data-aos="fade-up">
             <div class="our-brands--logo"><img src="@/assets/img/our-group-an-logo.png" alt=""></div>
             <div class="our-brands--excerpt">
               <p>Audience Network zajmuje się kompleksową obsługą reklamodawców w zakresie Data Consultingu i dotarcia do odbiorców z komunikatem przy użyciu m.in. narzędzi OnAudience.com. Posiada niezwykle doświadczony Trading Desk mający dostęp do najpopularniejszych reklamowych marketplace’ów w Europie. Realizuje kampanie retargetingowe, a także oferuje wyjątkowe rozwiązania analizy ruchu i konwersji w witrynach.
@@ -44,7 +44,7 @@
           </div>
 
           <!-- OnAudience.com -->
-          <div class="our-brands--item col-12 col-lg-9 d-flex flex-column align-items-center flex-lg-row">
+          <div class="our-brands--item col-12 col-lg-9 d-flex flex-column align-items-center flex-lg-row" data-aos="fade-up">
             <div class="our-brands--logo"><img src="@/assets/img/our-group-onaudience-logo.png" alt=""></div>
             <div class="our-brands--excerpt">
               <p>OnAudience.com to działająca na 40 rynkach platforma dla reklamodawców i wydawców oferująca kompleksowe produkty pozwalające skutecznie wzbogacać i monetyzować dane. Posiada unikatową technologię DMP (Data Management Platform) do integracji i zarządzania danymi pochodzącymi z różnych źródeł. OnAudience.com posiada także największy zbiór danych 3rd party w Europie składający się z ponad 50 mld profili internautów z całego świata.
