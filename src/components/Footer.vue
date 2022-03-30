@@ -42,7 +42,7 @@ export default {
   padding-bottom: 40px;
 
   @include lg {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
   }
   a {
     text-decoration: none !important;
